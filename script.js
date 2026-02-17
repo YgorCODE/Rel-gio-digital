@@ -1,5 +1,5 @@
 /*
-Projeto desenvolvido por Igor
+Projeto desenvolvido por Ygor
 GitHub: https://github.com/YgorCODE
 Ano: 2026
 Todos os direitos reservados
@@ -63,3 +63,4 @@ btn_24.addEventListener("click", () => {
 });
 
 setInterval(clock, 1000);
+
