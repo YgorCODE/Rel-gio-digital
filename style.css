@@ -1,0 +1,162 @@
+/* 
+Projeto desenvolvido por Igor
+GitHub: https://github.com/YgorCODE
+Ano: 2026
+Todos os direitos reservados
+*/
+
+body {
+  background: linear-gradient(120deg, #0a0f1c, #1f2937);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+     display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  margin: 0;
+  background: linear-gradient(120deg, #0a0f1c, #1f2937);
+  transition: background 1s linear;
+}
+
+main{
+      width: 550px;
+    background: #0a0f1c;
+    color: #9ca3af;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo{
+    font-size: 22px;
+    padding: 15px;
+    background: #15b7b9;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.subtitle{
+    font-size: 12px;
+}
+.toggle{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.05);
+    padding: 6px;
+    border-radius: 150px;
+}
+.btn{
+    padding: 8px 12px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.activeToggle{
+    color: #15b7b9;
+    background: rgba(255,255,255,0.08);
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time-wrap{
+    display: flex;
+    align-items: baseline;
+}
+
+.time {
+  color: #fff;
+  text-shadow: 0 0 10px #15b7b9, 0 0 20px #15b7b9;
+}
+
+
+.ampm{
+    font-size: 18px;
+}
+
+.meta{
+    display: flex;
+    flex-direction: column;
+    grid-area: 10px;
+    text-align: end;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px){
+    main{
+        width: 90%;
+        padding: 15px;
+    }
+
+    .time{
+        font-size: 45px;
+    }
+
+    .ampm{
+        font-size: 14px;
+    }
+}
+
+.time{
+    font-size: 65px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 6px;
+    transition: all 0.3s ease;
+}
+
+.time:hover{
+    color: #15b7b9;
+    transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 20px;
+  width: 100%;
+  position: relative; 
+}
+
+

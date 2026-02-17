@@ -1,0 +1,54 @@
+<!-- 
+Projeto desenvolvido por Ygor
+GitHub: https://github.com/YgorCODE
+Ano: 2026
+Todos os direitos reservados
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relógio digital</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <div class="brand">
+          <div class="logo">CL</div>
+          <div>
+            <div class="title">Relógio digital</div>
+            <div class="subtitle">12/24 horas somente modo escuro</div>
+          </div>
+        </div>
+        <div class="toggle">
+            <div class="btn activeToggle" id="btn-12">12 hr</div>
+             <div class="btn" id="btn-24">24 hr</div>
+        </div>
+      </div>
+
+      <div class="display">
+        <div class="time-wrap">
+            <div class="time" id="time">00:00:00</div>
+            <div class="ampm" id="ampm">AM</div>
+        </div>
+        <div class="meta">
+            <div id="date">Janeiro 1, 2025</div>
+            <div id="day">Segunda</div>
+        </div>
+      </div>
+
+      <div class="foot">
+        <div>Auto atualiza a cada segundo</div>
+        <div>Local Time</div>
+      </div>
+    </main>
+    <footer style="text-align: center; font-size: 12px; color: #9ca3af; margin-top: 20px;">
+  Desenvolvido por <a href="https://github.com/YgorCODE" target="_blank" style="color: #15b7b9; text-decoration: none;">Ygor</a> © 2026 • Todos os direitos reservados
+</footer>
+  </body>
+  <script src="script.js"></script>
+</html>
